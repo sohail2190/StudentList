@@ -9,7 +9,7 @@ function App() {
 
   return (
     <div className='container'>
-      <h3>{people.length} Students</h3>
+      <h3>Total {people.length} Students</h3>
       <Lists people={people}/>
       <button onClick={()=>setPeople([])}>Clear All</button>
       
@@ -17,4 +17,4 @@ function App() {
   )
 }
 
-export default App
+export default App;
